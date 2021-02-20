@@ -1,0 +1,30 @@
+.search-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-input {
+    border: 3px solid red;
+    border-right: none;
+border-radius: 25px 0px 0px 25px;
+padding: 5px 5px 5px 10px;
+}
+
+
+
+.search-btn {
+    background-color: rgba(255,255,255,0.9);
+    border: 3px solid red;
+    border-left: none;
+    border-radius: 0px 25px 25px 0px;
+    color: #606060;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    outline: none;
+  }
+
+.search-btn:active {
+    color:grey; 
+}
